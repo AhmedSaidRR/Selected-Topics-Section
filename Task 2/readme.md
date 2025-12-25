@@ -1,15 +1,15 @@
 ## Description
-This project involves building a comprehensive Business Intelligence (BI) solution to analyze Human Resources data. Using Power BI, the project tracks employee performance, attendance, and training metrics.
+This task focuses on analyzing the AdventureWorks database to extract sales insights. It demonstrates a hybrid workflow combining SQL for data extraction and Excel for advanced visualization.
 
 ## Objectives
-- **Data Modeling:** Creating relationships between fact tables (Attendance, Evaluations) and dimension tables (Employees, Calendar) to form a Star Schema.
-- **DAX Calculations:** Implementing measures to calculate attendance rates and performance scores.
-- **Interactive Visualization:** Developing a fully interactive Power BI report to monitor HR KPIs.
+- **Data Extraction:** Writing complex SQL queries (using JOINs and Aggregations) to retrieve relevant sales data from the database.
+- **Data Analysis:** Summarizing sales performance, order quantities, and regional distribution.
+- **Reporting:** Building an interactive Excel Dashboard based on the extracted SQL data.
 
 ## Tools Used
-- **Microsoft Power BI:** For data modeling, DAX, and report building.
+- **SQL (T-SQL):** For querying and joining multiple tables (SalesOrderHeader, SalesOrderDetail, etc.).
+- **Microsoft Excel:** For Pivot Tables and Dashboard visualization.
 
 ## Key Features
-- Analysis of employee attendance and leave patterns.
-- Evaluation of training program completion and its impact on performance.
-- Department-wise performance comparison.
+- Integration of SQL queries with Excel analysis.
+- Detailed breakdown of sales by territory and product categories.
